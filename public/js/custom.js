@@ -134,12 +134,19 @@ function compare(a, b){
 function computePoints(result){
 	var total=0;
 
-	if(result.win > 1){
+	if(result.win === 3){
+		return 9;
+	}
+	if(result.lose === 3){
+		return -9;
+	}
+
+	if(result.win === 2){
 		total += (result.win * 2);
 	}else{
 		total += result.win;
 	}
-	if(result.lose > 1){
+	if(result.lose === 2){
 		total -= (result.lose * 2);
 	}else{
 		total -= result.lose;
