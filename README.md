@@ -10,5 +10,5 @@ Fun: Laravel Practice using Rock-Paper-Scissors
 ..* run `php artisan storage:link`
 
 ### Running:
-..* Navigate to the root folder and run `php artisan serve`
-..* Access via your browser in `localhost:8000`
+* Navigate to the root folder and run `php artisan serve`
+* Access via your browser in `localhost:8000`
