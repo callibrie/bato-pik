@@ -9,3 +9,6 @@ Fun: Laravel Practice using Rock-Paper-Scissors
 ..* navigate to the public folder, if there is a storage folder it needs to be deleted by `rm storage`
 ..* run `php artisan storage:link`
 
+### Running:
+..* Navigate to the root folder and run `php artisan serve`
+..* Access via your browser in `localhost:8000`
